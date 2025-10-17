@@ -33,6 +33,7 @@ namespace CIP_Tool
             
             reportingmanager_list();
             adminlevel_check();
+            otcodes_load();
             reset_overall();
         }
 
@@ -63,7 +64,7 @@ namespace CIP_Tool
             label11.Visible = false;
             //updatestatus.Enabled = false;
             //rejected.Enabled = false;
-            ot_code.Text = string.Empty;
+            ot_code.SelectedIndex = -1;
         }
 
         public void adminlevel_check()
@@ -155,6 +156,17 @@ namespace CIP_Tool
             processname.DisplayMember = "Process";
             conn.Close();
             processname.SelectedIndex = -1;
+        }
+
+        public void otcodes_load()
+        {
+            OT_Codes obj_ot_codes = new OT_Codes();
+            DataTable dtaa = new DataTable();
+            obj_ot_codes.otcodes_list(dtaa);
+            ot_code.DataSource = dtaa;
+            ot_code.DisplayMember = "OT_Code";
+            conn.Close();
+            ot_code.SelectedIndex = -1;
         }
 
         public void empname_list()

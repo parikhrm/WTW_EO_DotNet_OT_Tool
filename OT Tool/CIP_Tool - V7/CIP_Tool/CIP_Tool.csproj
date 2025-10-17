@@ -67,6 +67,7 @@
     <Compile Include="OT_Approver.Designer.cs">
       <DependentUpon>OT_Approver.cs</DependentUpon>
     </Compile>
+    <Compile Include="OT_Codes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="HomePage.resx">

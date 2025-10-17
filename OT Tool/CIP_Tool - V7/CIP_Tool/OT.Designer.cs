@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.ot_code = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.rejected = new System.Windows.Forms.Button();
             this.othours = new System.Windows.Forms.TextBox();
@@ -94,6 +93,7 @@
             this.emailaddress = new System.Windows.Forms.ComboBox();
             this.adminlevel = new System.Windows.Forms.ComboBox();
             this.homepage = new System.Windows.Forms.Button();
+            this.ot_code = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -135,13 +135,6 @@
             this.groupBox1.Size = new System.Drawing.Size(722, 935);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            // 
-            // ot_code
-            // 
-            this.ot_code.Location = new System.Drawing.Point(470, 435);
-            this.ot_code.Name = "ot_code";
-            this.ot_code.Size = new System.Drawing.Size(205, 26);
-            this.ot_code.TabIndex = 19;
             // 
             // label16
             // 
@@ -575,6 +568,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(40, 99);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1100, 750);
             this.dataGridView1.TabIndex = 3;
@@ -584,134 +578,176 @@
             // txtVerified
             // 
             this.txtVerified.HeaderText = "Verified";
+            this.txtVerified.MinimumWidth = 8;
             this.txtVerified.Name = "txtVerified";
             this.txtVerified.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.txtVerified.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.txtVerified.Width = 150;
             // 
             // txtClaimSubmitted
             // 
             this.txtClaimSubmitted.HeaderText = "ClaimSubmitted";
+            this.txtClaimSubmitted.MinimumWidth = 8;
             this.txtClaimSubmitted.Name = "txtClaimSubmitted";
             this.txtClaimSubmitted.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.txtClaimSubmitted.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.txtClaimSubmitted.Width = 150;
             // 
             // txtRequestID
             // 
             this.txtRequestID.DataPropertyName = "RequestID";
             this.txtRequestID.HeaderText = "RequestID";
+            this.txtRequestID.MinimumWidth = 8;
             this.txtRequestID.Name = "txtRequestID";
+            this.txtRequestID.Width = 150;
             // 
             // txtHRCloudID
             // 
             this.txtHRCloudID.DataPropertyName = "HRCloudID";
             this.txtHRCloudID.HeaderText = "HRCloudID";
+            this.txtHRCloudID.MinimumWidth = 8;
             this.txtHRCloudID.Name = "txtHRCloudID";
+            this.txtHRCloudID.Width = 150;
             // 
             // txtEmpName
             // 
             this.txtEmpName.DataPropertyName = "EmpName";
             this.txtEmpName.HeaderText = "EmpName";
+            this.txtEmpName.MinimumWidth = 8;
             this.txtEmpName.Name = "txtEmpName";
+            this.txtEmpName.Width = 150;
             // 
             // txtReportingManager
             // 
             this.txtReportingManager.DataPropertyName = "ReportingManager";
             this.txtReportingManager.HeaderText = "ReportingManager";
+            this.txtReportingManager.MinimumWidth = 8;
             this.txtReportingManager.Name = "txtReportingManager";
+            this.txtReportingManager.Width = 150;
             // 
             // txtOTDate
             // 
             this.txtOTDate.DataPropertyName = "OTDate";
             this.txtOTDate.HeaderText = "OTDate";
+            this.txtOTDate.MinimumWidth = 8;
             this.txtOTDate.Name = "txtOTDate";
+            this.txtOTDate.Width = 150;
             // 
             // txtOTStartTime
             // 
             this.txtOTStartTime.DataPropertyName = "OTStartTime";
             this.txtOTStartTime.HeaderText = "OTStartTime";
+            this.txtOTStartTime.MinimumWidth = 8;
             this.txtOTStartTime.Name = "txtOTStartTime";
+            this.txtOTStartTime.Width = 150;
             // 
             // txtBreakStartTime
             // 
             this.txtBreakStartTime.DataPropertyName = "BreakStartTime";
             this.txtBreakStartTime.HeaderText = "BreakStartTime";
+            this.txtBreakStartTime.MinimumWidth = 8;
             this.txtBreakStartTime.Name = "txtBreakStartTime";
             this.txtBreakStartTime.Visible = false;
+            this.txtBreakStartTime.Width = 150;
             // 
             // txtBreakEndTime
             // 
             this.txtBreakEndTime.DataPropertyName = "BreakEndTime";
             this.txtBreakEndTime.HeaderText = "BreakEndTime";
+            this.txtBreakEndTime.MinimumWidth = 8;
             this.txtBreakEndTime.Name = "txtBreakEndTime";
             this.txtBreakEndTime.Visible = false;
+            this.txtBreakEndTime.Width = 150;
             // 
             // txtOTEndTime
             // 
             this.txtOTEndTime.DataPropertyName = "OTEndTime";
             this.txtOTEndTime.HeaderText = "OTEndTime";
+            this.txtOTEndTime.MinimumWidth = 8;
             this.txtOTEndTime.Name = "txtOTEndTime";
+            this.txtOTEndTime.Width = 150;
             // 
             // txtTotalOTInHours
             // 
             this.txtTotalOTInHours.DataPropertyName = "TotalOTInHours";
             this.txtTotalOTInHours.HeaderText = "TotalOTInHours";
+            this.txtTotalOTInHours.MinimumWidth = 8;
             this.txtTotalOTInHours.Name = "txtTotalOTInHours";
+            this.txtTotalOTInHours.Width = 150;
             // 
             // txtTotalOTInMinutes
             // 
             this.txtTotalOTInMinutes.DataPropertyName = "TotalOTInMinutes";
             this.txtTotalOTInMinutes.HeaderText = "TotalOTInMinutes";
+            this.txtTotalOTInMinutes.MinimumWidth = 8;
             this.txtTotalOTInMinutes.Name = "txtTotalOTInMinutes";
+            this.txtTotalOTInMinutes.Width = 150;
             // 
             // txtProcessName
             // 
             this.txtProcessName.DataPropertyName = "ProcessName";
             this.txtProcessName.HeaderText = "ProcessName";
+            this.txtProcessName.MinimumWidth = 8;
             this.txtProcessName.Name = "txtProcessName";
+            this.txtProcessName.Width = 150;
             // 
             // txtOTCode
             // 
             this.txtOTCode.DataPropertyName = "OT_Code";
             this.txtOTCode.HeaderText = "OTCode";
+            this.txtOTCode.MinimumWidth = 8;
             this.txtOTCode.Name = "txtOTCode";
+            this.txtOTCode.Width = 150;
             // 
             // txtComments
             // 
             this.txtComments.DataPropertyName = "Comments";
             this.txtComments.HeaderText = "Comments";
+            this.txtComments.MinimumWidth = 8;
             this.txtComments.Name = "txtComments";
+            this.txtComments.Width = 150;
             // 
             // txtVerified_by
             // 
             this.txtVerified_by.DataPropertyName = "Verified_by";
             this.txtVerified_by.HeaderText = "Verified_by";
+            this.txtVerified_by.MinimumWidth = 8;
             this.txtVerified_by.Name = "txtVerified_by";
+            this.txtVerified_by.Width = 150;
             // 
             // txtClaimSubmitted_by
             // 
             this.txtClaimSubmitted_by.DataPropertyName = "ClaimSubmitted_by";
             this.txtClaimSubmitted_by.HeaderText = "ClaimSubmitted_by";
+            this.txtClaimSubmitted_by.MinimumWidth = 8;
             this.txtClaimSubmitted_by.Name = "txtClaimSubmitted_by";
+            this.txtClaimSubmitted_by.Width = 150;
             // 
             // txtVerified_by_Rag
             // 
             this.txtVerified_by_Rag.DataPropertyName = "Verified_by_Rag";
             this.txtVerified_by_Rag.HeaderText = "Verified_by_Rag";
+            this.txtVerified_by_Rag.MinimumWidth = 8;
             this.txtVerified_by_Rag.Name = "txtVerified_by_Rag";
             this.txtVerified_by_Rag.Visible = false;
+            this.txtVerified_by_Rag.Width = 150;
             // 
             // txtClaimSubmitted_by_Rag
             // 
             this.txtClaimSubmitted_by_Rag.DataPropertyName = "ClaimSubmitted_by_Rag";
             this.txtClaimSubmitted_by_Rag.HeaderText = "ClaimSubmitted_by_Rag";
+            this.txtClaimSubmitted_by_Rag.MinimumWidth = 8;
             this.txtClaimSubmitted_by_Rag.Name = "txtClaimSubmitted_by_Rag";
             this.txtClaimSubmitted_by_Rag.Visible = false;
+            this.txtClaimSubmitted_by_Rag.Width = 150;
             // 
             // txtAOMTimeWorked
             // 
             this.txtAOMTimeWorked.DataPropertyName = "AOM_TimeWorked";
             this.txtAOMTimeWorked.HeaderText = "AOM_TimeWorked_Minutes";
+            this.txtAOMTimeWorked.MinimumWidth = 8;
             this.txtAOMTimeWorked.Name = "txtAOMTimeWorked";
+            this.txtAOMTimeWorked.Width = 150;
             // 
             // updatestatus
             // 
@@ -753,6 +789,15 @@
             this.homepage.Text = "Home Page";
             this.homepage.UseVisualStyleBackColor = false;
             this.homepage.Click += new System.EventHandler(this.homepage_Click);
+            // 
+            // ot_code
+            // 
+            this.ot_code.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ot_code.FormattingEnabled = true;
+            this.ot_code.Location = new System.Drawing.Point(466, 430);
+            this.ot_code.Name = "ot_code";
+            this.ot_code.Size = new System.Drawing.Size(230, 28);
+            this.ot_code.TabIndex = 26;
             // 
             // OT
             // 
@@ -827,7 +872,6 @@
         private System.Windows.Forms.TextBox othours;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button rejected;
-        private System.Windows.Forms.TextBox ot_code;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.DataGridViewCheckBoxColumn txtVerified;
         private System.Windows.Forms.DataGridViewCheckBoxColumn txtClaimSubmitted;
@@ -851,5 +895,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn txtClaimSubmitted_by_Rag;
         private System.Windows.Forms.DataGridViewTextBoxColumn txtAOMTimeWorked;
         private System.Windows.Forms.Button homepage;
+        private System.Windows.Forms.ComboBox ot_code;
     }
 }

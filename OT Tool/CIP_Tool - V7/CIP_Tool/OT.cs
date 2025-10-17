@@ -692,7 +692,7 @@ namespace CIP_Tool
                             cmd.Connection = conn;
                             conn.Open();
                             cmd.Parameters.Clear();
-                            cmd.CommandText = "exec usp_ot_datagrid_update_claimsubmitted_dotnet @RequestID,@LastUpdatedDateTime,@LastUpdatedBy";
+                            cmd.CommandText = "exec dbo.usp_ot_datagrid_update_claimsubmitted_dotnet @RequestID,@LastUpdatedDateTime,@LastUpdatedBy";
                             cmd.Parameters.AddWithValue("@RequestID", row.Cells["txtRequestID"].Value);
                             cmd.Parameters.AddWithValue("@LastUpdatedDateTime", DateTime.Now.ToLocalTime());
                             cmd.Parameters.AddWithValue("@LastUpdatedBy", Environment.UserName.ToString());

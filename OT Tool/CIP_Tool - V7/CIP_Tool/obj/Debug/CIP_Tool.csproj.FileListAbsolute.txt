@@ -174,3 +174,16 @@ C:\Users\ParikhRm\OneDrive - Willis Towers Watson\Azure - EO - Projects\Dot Net 
 C:\Users\ParikhRm\OneDrive - Willis Towers Watson\Azure - EO - Projects\Dot Net Projects\TCTO_2025\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.csproj.GenerateResource.Cache
 C:\Users\ParikhRm\OneDrive - Willis Towers Watson\Azure - EO - Projects\Dot Net Projects\TCTO_2025\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.HomePage.resources
 C:\Users\ParikhRm\OneDrive - Willis Towers Watson\Azure - EO - Projects\Dot Net Projects\TCTO_2025\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.csproj.ResolveComReference.cache
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\bin\Debug\CIP_Tool.exe.config
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\bin\Debug\CIP_Tool.exe
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\bin\Debug\CIP_Tool.pdb
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.csproj.AssemblyReference.cache
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.csproj.ResolveComReference.cache
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.HomePage.resources
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.OT.resources
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.OT_Approver.resources
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.Properties.Resources.resources
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.csproj.GenerateResource.cache
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.csproj.CoreCompileInputs.cache
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.exe
+C:\Users\parikhrm\source\repos\WTW_EO_DotNet_OT_Tool\OT Tool\CIP_Tool - V7\CIP_Tool\obj\Debug\CIP_Tool.pdb
